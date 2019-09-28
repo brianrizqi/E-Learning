@@ -1,0 +1,161 @@
+.mediaViewInfo {
+	--web-view-name: Web 1366 – 1;
+	--web-view-id: Web_1366___1;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Web_1366___1;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+#Web_1366___1 {
+	position: absolute;
+	box-sizing: border-box;
+	background: #E5E5E5;
+	width: 1366px;
+	height: 768px;
+	background-color: rgba(66,165,245,1);
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	--web-view-name: Web 1366 – 1;
+	--web-view-id: Web_1366___1;
+	--web-enable-deep-linking: true;
+}
+#Rectangle_41 {
+	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.161));
+}
+.Rectangle_41 {
+	position: absolute;
+	overflow: visible;
+	width: 604px;
+	height: 605px;
+	left: 396px;
+	top: 155px;
+}
+#LOGIN {
+	position: absolute;
+	left: 627px;
+	top: 178px;
+	overflow: visible;
+	width: 112px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(66,165,245,1);
+}
+.Rectangle_42 {
+	position: absolute;
+	overflow: visible;
+	width: 506px;
+	height: 69px;
+	left: 430px;
+	top: 293px;
+}
+.Line_3 {
+	overflow: visible;
+	position: absolute;
+	top: 341.385px;
+	left: 451.492px;
+	width: 464.191px;
+	height: 1px;
+}
+#NIM {
+	position: absolute;
+	left: 457px;
+	top: 307px;
+	overflow: visible;
+	width: 40px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(189,189,189,1);
+}
+.Rectangle_43 {
+	position: absolute;
+	overflow: visible;
+	width: 506px;
+	height: 69px;
+	left: 430px;
+	top: 387px;
+}
+.Line_4 {
+	overflow: visible;
+	position: absolute;
+	top: 435.357px;
+	left: 451.492px;
+	width: 464.191px;
+	height: 1px;
+}
+#Password {
+	position: absolute;
+	left: 457px;
+	top: 401px;
+	overflow: visible;
+	width: 97px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(189,189,189,1);
+}
+.Rectangle_44 {
+	position: absolute;
+	overflow: visible;
+	width: 316px;
+	height: 65px;
+	left: 525px;
+	top: 500px;
+}
+#LOGIN_A6_Text_4 {
+	position: absolute;
+	left: 650px;
+	top: 517px;
+	overflow: visible;
+	width: 65px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#Forgot_Password__ {
+	position: absolute;
+	left: 591px;
+	top: 594px;
+	overflow: visible;
+	width: 182px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(239,83,80,1);
+}
+#E___Learning {
+	position: absolute;
+	left: 536px;
+	top: 38px;
+	overflow: visible;
+	width: 291px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 56px;
+	color: rgba(255,255,255,1);
+}

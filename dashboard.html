@@ -3,24 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>E - Learning</title>
+    <link rel="stylesheet" href="dashboard.css" type="text/css">
 </head>
-<body>
-<section id="sideMenu">
-    <nav>
-        <a class="active" href="#"><i class="fa fa-home" aria-hidden="true"></i>
-            Dashboard</a>
-        <a href="#"><i class="fa fa-address-card" aria-hidden="true"></i>
-            My Course</a>
-        <a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Profile</a>
-    </nav>
-</section>
-<header>
-    <div class="search-admin">
-        <i class="fa fa-search" aria-hidden="true"></i>
-        <input type="text" name="" value="">
+<body class="admin-panel">
+<div class="flex flex-col md:flex-row">
+    <div class="sidebar">
+        <div class="sidebar-body">
+            <ul class="sidebar-content list-reset">
+                <li>
+                    <a href="#" class="active">
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="active">
+                        <span>My Course</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="active">
+                        <span>Profile</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
-</header>
-<section id="content-area">
-</section>
+</div>
 </body>
 </html>

@@ -1,838 +1,109 @@
-.mediaViewInfo {
-	--web-view-name: Web 1366 – 2;
-	--web-view-id: Web_1366___2;
-	--web-enable-deep-linking: true;
-}
-:root {
-	--web-view-ids: Web_1366___2;
-}
 * {
-	margin: 0;
-	padding: 0;
-}
-#Web_1366___2 {
-	position: absolute;
-	box-sizing: border-box;
-	background: #E5E5E5;
-	width: 1366px;
-	height: 768px;
-	background-color: rgba(255,255,255,1);
-	overflow: hidden;
-	margin: 0;
-	padding: 0;
-	--web-view-name: Web 1366 – 2;
-	--web-view-id: Web_1366___2;
-	--web-enable-deep-linking: true;
-}
-.Rectangle_36 {
-	position: absolute;
-	overflow: visible;
-	width: 1366px;
-	height: 606px;
-	left: 0px;
-	top: 162px;
-}
-#Rectangle_46 {
-	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-}
-.Rectangle_46 {
-	position: absolute;
-	overflow: visible;
-	width: 223px;
-	height: 223px;
-	left: 1098px;
-	top: 248px;
-}
-.Rectangle_2 {
-	position: absolute;
-	overflow: visible;
-	width: 1366px;
-	height: 161px;
-	left: 0px;
-	top: 0px;
-}
-#Rectangle_1 {
-	filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.161));
-}
-.Rectangle_1 {
-	position: absolute;
-	overflow: visible;
-	width: 324px;
-	height: 786px;
-	left: 0px;
-	top: 0px;
-}
-#E___Learning {
-	position: absolute;
-	left: 28px;
-	top: 18px;
-	overflow: visible;
-	width: 249px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 48px;
-	color: rgba(66,165,245,1);
-}
-.XMLID_1960_ {
-	overflow: visible;
-	position: absolute;
-	top: 299.321px;
-	left: 63.32px;
-	width: 24.346px;
-	height: 31.507px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#MY_MENU {
-	position: absolute;
-	left: 22px;
-	top: 253px;
-	overflow: visible;
-	width: 84px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 21px;
-	color: rgba(189,189,189,1);
-}
-#Ellipse_1 {
-	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-}
-.Ellipse_1 {
-	position: absolute;
-	overflow: visible;
-	width: 89px;
-	height: 89px;
-	left: 28px;
-	top: 133px;
-}
-.IMG_9637 {
-	position: absolute;
-	overflow: visible;
-	width: 63px;
-	height: 64px;
-	left: 32px;
-	top: 137px;
-}
-#Brian_Rizqi {
-	position: absolute;
-	left: 111px;
-	top: 137px;
-	overflow: visible;
-	width: 86px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 19px;
-	color: rgba(53,41,41,1);
-}
-#Student {
-	position: absolute;
-	left: 111px;
-	top: 162px;
-	overflow: visible;
-	width: 44px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 13px;
-	color: rgba(53,41,41,1);
-}
-.Ellipse_2 {
-	position: absolute;
-	overflow: visible;
-	width: 9px;
-	height: 9px;
-	left: 76px;
-	top: 189px;
-}
-#Welcome_Brian__ {
-	position: absolute;
-	left: 491px;
-	top: 39px;
-	overflow: visible;
-	width: 386px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 57px;
-	color: rgba(255,255,255,1);
-}
-#Rectangle_23 {
-	opacity: 0.2;
-}
-.Rectangle_23 {
-	position: absolute;
-	overflow: visible;
-	width: 173px;
-	height: 34px;
-	left: 1175px;
-	top: 58px;
-}
-#XMLID_1102_ {
-	opacity: 0.2;
-}
-.XMLID_1102_ {
-	overflow: visible;
-	position: absolute;
-	top: 67.397px;
-	left: 1186.713px;
-	width: 14.784px;
-	height: 15.132px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#Search {
-	opacity: 0.2;
-	position: absolute;
-	left: 1215px;
-	top: 66px;
-	overflow: visible;
-	width: 41px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	color: rgba(255,255,255,1);
-}
-#XMLID_1404_ {
-	opacity: 0.2;
-}
-.XMLID_1404_ {
-	overflow: visible;
-	position: absolute;
-	top: 61.185px;
-	left: 1116.278px;
-	width: 24.685px;
-	height: 27.035px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.Ellipse_3 {
-	position: absolute;
-	overflow: visible;
-	width: 7px;
-	height: 7px;
-	left: 1132px;
-	top: 63px;
-}
-#OPTIONS {
-	position: absolute;
-	left: 22px;
-	top: 525px;
-	overflow: visible;
-	width: 82px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 21px;
-	color: rgba(189,189,189,1);
-}
-#Settings {
-	position: absolute;
-	left: 119px;
-	top: 581px;
-	overflow: visible;
-	width: 79px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 23px;
-	color: rgba(189,189,189,1);
-}
-#Logout {
-	position: absolute;
-	left: 119px;
-	top: 642px;
-	overflow: visible;
-	width: 68px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 23px;
-	color: rgba(189,189,189,1);
-}
-.XMLID_160_ {
-	overflow: visible;
-	position: absolute;
-	top: 583.044px;
-	left: 62.624px;
-	width: 25.956px;
-	height: 25.956px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.XMLID_1456_ {
-	overflow: visible;
-	position: absolute;
-	top: 647.68px;
-	left: 66.877px;
-	width: 24.442px;
-	height: 19.66px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#Learn___Learn_and_Learn {
-	position: absolute;
-	left: 597px;
-	top: 109px;
-	overflow: visible;
-	width: 166px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 17px;
-	color: rgba(255,255,255,1);
-}
-.Line_1 {
-	overflow: visible;
-	position: absolute;
-	top: 92.134px;
-	left: 13.162px;
-	width: 280.315px;
-	height: 1px;
-}
-#Monday {
-	position: absolute;
-	left: 351px;
-	top: 186px;
-	overflow: visible;
-	width: 99px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 28px;
-	color: rgba(53,41,41,1);
-}
-#Rectangle_29 {
-	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-}
-.Rectangle_29 {
-	position: absolute;
-	overflow: visible;
-	width: 223px;
-	height: 223px;
-	left: 351px;
-	top: 248px;
-}
-#Rectangle_29_A7_Rectangle_7 {
-	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-}
-.Rectangle_29_A7_Rectangle_7 {
-	position: absolute;
-	overflow: visible;
-	width: 222px;
-	height: 223px;
-	left: 601px;
-	top: 248px;
-}
-#Rectangle_29_A7_Rectangle_8 {
-	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-}
-.Rectangle_29_A7_Rectangle_8 {
-	position: absolute;
-	overflow: visible;
-	width: 224px;
-	height: 223px;
-	left: 849px;
-	top: 248px;
-}
-.Rectangle_30 {
-	position: absolute;
-	overflow: visible;
-	width: 166px;
-	height: 50px;
-	left: 368px;
-	top: 267px;
-}
-#Framework {
-	position: absolute;
-	left: 392px;
-	top: 277px;
-	overflow: visible;
-	width: 114px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 24px;
-	color: rgba(255,255,255,1);
-}
-#Laravel_and_CodeIgniter {
-	position: absolute;
-	left: 368px;
-	top: 339px;
-	overflow: visible;
-	width: 140px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	color: rgba(53,41,41,1);
-}
-#Diksy_Media_F__S_Kom___M_Kom {
-	position: absolute;
-	left: 368px;
-	top: 430px;
-	overflow: visible;
-	width: 125px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 10px;
-	color: rgba(53,41,41,1);
-}
-#Teacher___ {
-	position: absolute;
-	left: 368px;
-	top: 413px;
-	overflow: visible;
-	width: 40px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 10px;
-	color: rgba(189,189,189,1);
-}
-.Rectangle_31 {
-	position: absolute;
-	overflow: visible;
-	width: 165px;
-	height: 50px;
-	left: 618px;
-	top: 267px;
-}
-#UI___UX {
-	position: absolute;
-	left: 666px;
-	top: 277px;
-	overflow: visible;
-	width: 68px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 24px;
-	color: rgba(255,255,255,1);
-}
-#Adobe_XD_and_Figma {
-	position: absolute;
-	left: 618px;
-	top: 339px;
-	overflow: visible;
-	width: 121px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	color: rgba(53,41,41,1);
-}
-#Anang_Andrianto__S_T___M_T {
-	position: absolute;
-	left: 618px;
-	top: 430px;
-	overflow: visible;
-	width: 108px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 10px;
-	color: rgba(53,41,41,1);
-}
-#Teacher____A7_Text_19 {
-	position: absolute;
-	left: 618px;
-	top: 413px;
-	overflow: visible;
-	width: 40px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 10px;
-	color: rgba(189,189,189,1);
-}
-.Rectangle_32 {
-	position: absolute;
-	overflow: visible;
-	width: 166px;
-	height: 50px;
-	left: 867px;
-	top: 267px;
-}
-#Mobile {
-	position: absolute;
-	left: 915px;
-	top: 277px;
-	overflow: visible;
-	width: 69px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 24px;
-	color: rgba(255,255,255,1);
-}
-#Android_and_IOS {
-	position: absolute;
-	left: 867px;
-	top: 339px;
-	overflow: visible;
-	width: 96px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	color: rgba(53,41,41,1);
-}
-#Priza_Pandunata__S_Kom___M_Sc {
-	position: absolute;
-	left: 867px;
-	top: 430px;
-	overflow: visible;
-	width: 127px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 10px;
-	color: rgba(53,41,41,1);
-}
-#Teacher____A7_Text_23 {
-	position: absolute;
-	left: 867px;
-	top: 413px;
-	overflow: visible;
-	width: 40px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 10px;
-	color: rgba(189,189,189,1);
-}
-.Rectangle_33 {
-	position: absolute;
-	overflow: visible;
-	width: 166px;
-	height: 50px;
-	left: 1117px;
-	top: 267px;
-}
-#Programming {
-	position: absolute;
-	left: 1128px;
-	top: 277px;
-	overflow: visible;
-	width: 139px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 24px;
-	color: rgba(255,255,255,1);
-}
-#Phyton {
-	position: absolute;
-	left: 1117px;
-	top: 339px;
-	overflow: visible;
-	width: 43px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	color: rgba(53,41,41,1);
-}
-#_Fahrobby_Adnan__S_Kom___M_M_S {
-	position: absolute;
-	left: 1117px;
-	top: 430px;
-	overflow: visible;
-	width: 140px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 10px;
-	color: rgba(53,41,41,1);
-}
-#Teacher____A7_Text_27 {
-	position: absolute;
-	left: 1117px;
-	top: 413px;
-	overflow: visible;
-	width: 40px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 10px;
-	color: rgba(189,189,189,1);
-}
-#ID07_00___08_40 {
-	opacity: 0.8;
-	position: absolute;
-	left: 368px;
-	top: 357px;
-	overflow: visible;
-	width: 53px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 10px;
-	color: rgba(53,41,41,1);
-}
-#R__4_Faculty_of_Computer_Scien {
-	opacity: 0.8;
-	position: absolute;
-	left: 368px;
-	top: 373px;
-	overflow: visible;
-	width: 110px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 8px;
-	color: rgba(53,41,41,1);
-}
-#ID08_50___10_30 {
-	opacity: 0.8;
-	position: absolute;
-	left: 618px;
-	top: 357px;
-	overflow: visible;
-	width: 53px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 10px;
-	color: rgba(53,41,41,1);
-}
-#R__4_Faculty_of_Computer_Scien_A7_Text_31 {
-	opacity: 0.8;
-	position: absolute;
-	left: 618px;
-	top: 373px;
-	overflow: visible;
-	width: 110px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 8px;
-	color: rgba(53,41,41,1);
-}
-#ID10_40___12_20 {
-	opacity: 0.8;
-	position: absolute;
-	left: 867px;
-	top: 357px;
-	overflow: visible;
-	width: 53px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 10px;
-	color: rgba(53,41,41,1);
-}
-#R__4_Faculty_of_Computer_Scien_A7_Text_33 {
-	opacity: 0.8;
-	position: absolute;
-	left: 867px;
-	top: 373px;
-	overflow: visible;
-	width: 110px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 8px;
-	color: rgba(53,41,41,1);
-}
-#ID12_30___14_10 {
-	opacity: 0.8;
-	position: absolute;
-	left: 1117px;
-	top: 357px;
-	overflow: visible;
-	width: 53px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 10px;
-	color: rgba(53,41,41,1);
-}
-#R__4_Faculty_of_Computer_Scien_A7_Text_35 {
-	opacity: 0.8;
-	position: absolute;
-	left: 1117px;
-	top: 373px;
-	overflow: visible;
-	width: 110px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 8px;
-	color: rgba(53,41,41,1);
-}
-#Dashboard {
-	position: absolute;
-	left: 120px;
-	top: 300px;
-	overflow: visible;
-	width: 110px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 24px;
-	color: rgba(189,189,189,1);
-}
-.XMLID_1960__A7_Path_6 {
-	overflow: visible;
-	position: absolute;
-	top: 350.546px;
-	left: 63.32px;
-	width: 24.346px;
-	height: 31.507px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#My_Course {
-	position: absolute;
-	left: 120px;
-	top: 351px;
-	overflow: visible;
-	width: 104px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 24px;
-	color: rgba(53,41,41,1);
-}
-.XMLID_1960__A7_Path_7 {
-	overflow: visible;
-	position: absolute;
-	top: 401.771px;
-	left: 63.32px;
-	width: 24.346px;
-	height: 31.507px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#Profile {
-	position: absolute;
-	left: 120px;
-	top: 402px;
-	overflow: visible;
-	width: 67px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 24px;
-	color: rgba(189,189,189,1);
-}
-.XMLID_1960__A7_Path_8 {
-	overflow: visible;
-	position: absolute;
-	top: 452.996px;
-	left: 63.32px;
-	width: 24.346px;
-	height: 31.507px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#Dashboard_A7_Text_39 {
-	position: absolute;
-	left: 120px;
-	top: 453px;
-	overflow: visible;
-	width: 110px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 24px;
-	color: rgba(189,189,189,1);
-}
-.Rectangle_34 {
-	position: absolute;
-	overflow: visible;
-	width: 1366px;
-	height: 86px;
-	left: 0px;
-	top: 682px;
-}
-#Perancangan_Website_B_2019 {
-	position: absolute;
-	left: 609px;
-	top: 714px;
-	overflow: visible;
-	width: 204px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Source Sans Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 17px;
-	color: rgba(255,255,255,1);
-}
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html, body, .site-wrapper {
+  width: 100%;
+  height: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.site-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #fafafa;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.sidebar {
+  flex-grow: 1;
+  background-color: #ffffff;
+  max-width: 240px;
+  height: 100%;
+  padding: 0;
+  border-right: 1px solid #eee;
+}
+.sidebar header {
+  padding: 2em 0;
+  font-family: "Source Sans Pro Black", sans-serif;
+}
+.sidebar header a {
+  font-size: 20pt;
+  color: #42A5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar .menu {
+  color: #BDBDBD;
+  font-family: "Source Sans Pro SemiBold", sans-serif;
+}
+.sidebar .menu .menu-item {
+  display: block;
+  padding: 0.5em 2em;
+}
+.sidebar .menu .menu-item:hover, .sidebar .menu .menu-item.active {
+  color: #333;
+}
+.sidebar .menu-icon {
+  width: 30px;
+  text-align: center;
+}
+.sidebar .menu-label {
+  padding-left: 10px;
+}
+
+.main-wrapper {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.site-header {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-height: 120px;
+  border-bottom: 1px solid #eeeeee;
+  background-color: #42A5F5;
+}
+.site-header .text-header {
+  font-family: "Source Sans Pro Black", sans-serif;
+  color: white;
+  font-size: 20pt;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  display: flex;
+}
+.site-header .search-bar,
+.site-header .notif {
+  padding: 1.5em;
+  border-left: 1px solid #a3d3fa;
+  border-right: 1px solid #a3d3fa;
+}
+
+/*# sourceMappingURL=style.css.map */

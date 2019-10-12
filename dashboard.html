@@ -2,32 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>E - Learning</title>
-    <link rel="stylesheet" href="dashboard.css" type="text/css">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Title</title>
 </head>
-<body class="admin-panel">
-<div class="flex flex-col md:flex-row">
-    <div class="sidebar">
-        <div class="sidebar-body">
-            <ul class="sidebar-content list-reset">
+<body>
+
+<div class="site-wrapper">
+
+    <aside class="sidebar">
+        <header>
+            <a href="#">
+                <span>E - Learning</span>
+            </a>
+        </header>
+        <nav class="menu">
+            <ul>
                 <li>
-                    <a href="#" class="active">
-                        <span>Dashboard</span>
+                    <a href="#" class="active menu-item">
+                        <span class="menu-icon fa fa-book"></span>
+                        <span class="menu-label">Dashboard</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="active">
-                        <span>My Course</span>
+                    <a href="#" class="menu-item">
+                        <span class="menu-icon fa fa-book"></span>
+                        <span class="menu-label">My Course</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="active">
-                        <span>Profile</span>
+                    <a href="#" class="menu-item">
+                        <span class="menu-icon fa fa-user"></span>
+                        <span class="menu-label">Profile</span>
                     </a>
                 </li>
             </ul>
-        </div>
-    </div>
+        </nav>
+    </aside>
+    <main class="main-wrapper">
+        <header class="site-header">
+            <div class="text-header">
+                <span>
+                    <p>
+                        Learn, Learn and Learn
+                    </p>
+                </span>
+            </div>
+            <div>
+                <div class="notif">
+                    <span class="fa fa-bell"></span>
+                </div>
+                <div class="search-bar">
+                    <span class="fa fa-search"></span>
+                    <input type="text">
+                </div>
+            </div>
+        </header>
+    </main>
+
 </div>
 </body>
 </html>

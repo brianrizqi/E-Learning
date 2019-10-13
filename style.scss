@@ -147,12 +147,39 @@ html, body, .site-wrapper {
     @include d-flex-center();
     @include flex-grow();
     @include d-flex();
+    padding: 2em;
+
   }
 
-  .search-bar,
   .notif {
     padding: 1.5em;
-    border-left: 1px solid lighten($primary,20);
-    border-right: 1px solid lighten($primary,20);
+    border-left: 1px solid $primary;
+    border-right: 1px solid $primary;
+    color: $white;
   }
+
+  .search-bar {
+    padding: 0 1em;
+    @include flex-grow();
+    @include d-flex();
+    @include d-flex-v-center();
+    color: white;
+
+    input {
+      border: 0;
+      padding: 5px;
+      background-color: lighten($primary, 20);
+      color: $secondary-text;
+      font-family: inherit;
+      outline: none;
+      @include flex-grow();
+      margin-left: 10px;
+      border-radius: 5px;
+
+      &::-webkit-input-placeholder {
+        color:lighten($white, 20);
+      }
+    }
+  }
+
 }

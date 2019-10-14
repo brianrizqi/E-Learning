@@ -36,17 +36,35 @@ html, body, .site-wrapper {
   align-items: center;
 }
 
+.container {
+  padding: 2px 16px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.bg-blue {
+  background-color: #42A5F5;
+}
+
 .sidebar {
-  flex-grow: 1;
   background-color: #ffffff;
-  max-width: 240px;
+  width: 300px;
   height: 100%;
   padding: 0;
   border-right: 1px solid #eee;
+  transition: all 0.4s ease-in-out;
 }
 .sidebar header {
   padding: 2em 0;
   font-family: "Source Sans Pro Black", sans-serif;
+  transition: all 0.4s ease-in-out;
 }
 .sidebar header a {
   font-size: 20pt;
@@ -55,6 +73,12 @@ html, body, .site-wrapper {
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 768px) {
+  .sidebar header a {
+    padding: 0 1em 1em 0;
+    font-size: 10pt;
+  }
+}
 .sidebar .menu {
   color: #BDBDBD;
   font-family: "Source Sans Pro SemiBold", sans-serif;
@@ -62,9 +86,16 @@ html, body, .site-wrapper {
 .sidebar .menu .menu-item {
   display: block;
   padding: 0.5em 2em;
+  transition: all 0.4s ease-in-out;
 }
 .sidebar .menu .menu-item:hover, .sidebar .menu .menu-item.active {
   color: #333;
+}
+@media screen and (max-width: 768px) {
+  .sidebar .menu .menu-item {
+    padding: 1em;
+    justify-content: center;
+  }
 }
 .sidebar .menu-icon {
   width: 30px;
@@ -72,6 +103,19 @@ html, body, .site-wrapper {
 }
 .sidebar .menu-label {
   padding-left: 10px;
+  transition: all 0.1s ease-in-out;
+}
+@media screen and (max-width: 768px) {
+  .sidebar .menu-label {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sidebar {
+    max-width: 70px;
+  }
 }
 
 .main-wrapper {
@@ -100,6 +144,12 @@ html, body, .site-wrapper {
   display: flex;
   padding: 2em;
 }
+@media screen and (max-width: 768px) {
+  .site-header .text-header {
+    font-size: 10pt;
+    padding: 1em;
+  }
+}
 .site-header .notif {
   padding: 1.5em;
   border-left: 1px solid #42A5F5;
@@ -126,6 +176,64 @@ html, body, .site-wrapper {
 }
 .site-header .search-bar input::-webkit-input-placeholder {
   color: white;
+}
+@media screen and (max-width: 768px) {
+  .site-header .search-bar input {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+.card {
+  padding: 20px;
+  margin-left: 30px;
+  width: 25%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.card img {
+  width: 100%;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card .card-title {
+  background-color: #42A5F5;
+  color: #ffffff;
+  padding: 2.5%;
+  border-radius: 5px;
+}
+.card .card-title h2 {
+  text-align: center;
+  align-items: center;
+}
+.card .sub-title {
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-size: 15pt;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.card .sub-time {
+  margin: 0;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.card .sub-place {
+  margin: 0;
+  font-size: 10pt;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.card .teacher {
+  color: #BDBDBD;
+  margin-bottom: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 10pt;
+}
+.card .sub-teacher {
+  margin: 0;
+  font-size: 11pt;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

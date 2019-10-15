@@ -1,3 +1,15 @@
+.bg-red {
+  background-color: #cc0000;
+}
+
+.bg-yellow {
+  background-color: #cccc00;
+}
+
+.bg-green {
+  background-color: #004d00;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -199,7 +211,6 @@ html, body, .site-wrapper {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 .card .card-title {
-  background-color: #42A5F5;
   color: #ffffff;
   padding: 2.5%;
   border-radius: 5px;
@@ -234,6 +245,13 @@ html, body, .site-wrapper {
   margin: 0;
   font-size: 11pt;
   font-family: "Source Sans Pro", sans-serif;
+}
+.card .btn-detail {
+  margin-top: 20px;
+  color: #ffffff;
+  padding: 2.5%;
+  border-radius: 5px;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

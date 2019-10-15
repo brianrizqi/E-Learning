@@ -12,18 +12,26 @@
 </div>
 <div class="loginbox">
     <h1>Login</h1>
-    <form action="dashboard.html" onsubmit="validation()">
+    <form method="POST">
         <p>Username</p>
-        <input type="text" name="username" placeholder="Username">
+        <input type="text" name="username" placeholder="Username" id="username">
         <p>Password</p>
-        <input type="password" name="password" placeholder="Password">
-        <input type="submit" name="submit" value="Login">
+        <input type="password" name="password" placeholder="Password" id="password">
+        <input type="button" name="submit" value="Login" onclick="validation()">
 
     </form>
 </div>
 <script type="text/javascript">
     function validation() {
-        confirm("Apakah data yang anda inputkan benar?");
+        var username = document.getElementById('username').value;
+        var password = document.getElementById('password').value;
+        if (username == "mahasiswa" && password == "mahasiswa") {
+            alert('berhasil');
+            window.location.href = 'dashboard.html';
+            return false;
+        } else {
+            alert("username / password salah");
+        }
     }
 </script>
 </body>

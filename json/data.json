@@ -1,4 +1,3 @@
-
 [
 	{
 		"mata_kuliah"	:"Framework",
@@ -27,5 +26,5 @@
 		"jam"	:"12.30 - 14.10",
 		"ruang":"Lab SAC Fakultas Ilmu Komputer",
 		"dosen":"Januar Adi Putra, S.Kom., M.Kom"
-	},
+	}
 ]

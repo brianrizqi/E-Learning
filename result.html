@@ -5,7 +5,6 @@
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="login/login.css">
     <title>E - Learning</title>
 </head>
 <body>
@@ -21,7 +20,7 @@
         <nav class="menu">
             <ul>
                 <li>
-                    <a href="dashboard.html" class="active menu-item">
+                    <a href="dashboard.html" class="menu-item">
                         <span class="menu-icon fa fa-book"></span>
                         <span class="menu-label">Dashboard</span>
                     </a>
@@ -33,7 +32,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="result.html" class="menu-item">
+                    <a href="result.html" class="active menu-item">
                         <span class="menu-icon fa fa-line-chart"></span>
                         <span class="menu-label">Result</span>
                     </a>
@@ -49,7 +48,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="menu-item" id="btn-logout">
+                    <a href="#" class="menu-item">
                         <span class="menu-icon fa fa-sign-out"></span>
                         <span class="menu-label">Logout</span>
                     </a>
@@ -77,69 +76,33 @@
             </div>
         </header>
         <div class="container">
-            <h2>Monday</h2>
-            <div class="centered">
+            <h2>Grafik IPK</h2>
+            <canvas id="myCanvas">
 
-                <section class="cards">
-
-                </section>
-            </div>
+            </canvas>
         </div>
     </main>
-    <div id="myModal" class="modal">
 
-        <div class="modal-content">
-            <p>Apakah anda yakin akan keluar?</p>
-            <button id="modal-btn-yes">
-                Ya
-            </button>
-            <button id="modal-btn-no">
-                Tidak
-            </button>
-        </div>
-
-    </div>
 </div>
 
 <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
 
 <script type="text/javascript">
-    $(document).ready(function () {
-        $.getJSON('https://raw.githubusercontent.com/brianrizqi/brianrizqi.github.io/master/json/data.json',
-            function (data) {
-                // console.log(data);
-                $.each(data, function (n, response) {
-                    $('.cards').append(
-                        `<article class="card">
-                        <div class="card-title bg-green">
-                            <h2>`+response['mata_kuliah']+`</h2>
-                        </div>
-                        <p class="sub-title">`+response['materi']+`</p>
-                        <p class="sub-time">`+response['jam']+`</p>
-                        <p class="sub-place">`+response['ruang']+`</p>
-                        <p class="teacher">Teacher</p>
-                        <p class="sub-teacher">`+response['dosen']+`</p>
-                    </article>`
-                    );
-                })
-            });
-    })
+    var canvas = document.getElementById("myCanvas");
+    var nilai = [80, 90, 70, 85, 90, 100];
+    canvas.width = 900;
+    canvas.height = 200;
+    var ctx = canvas.getContext("2d");
 
-    $("#btn-logout").on('click',function () {
-        var modal = document.getElementById("myModal");
-        modal.style.display = "block";
-    })
-
-    $("#modal-btn-no").on('click',function () {
-        var modal = document.getElementById("myModal");
-        modal.style.display = "none";
-    })
-
-    $("#modal-btn-yes").on('click',function () {
-        window.location.href = 'index.html';
-        return false;
-        modal.style.display = "none";
-    })
+    var x = 50;
+    var width = 40;
+    var height = 100;
+    ctx.fillStyle = '#008080';
+    for (var i = 0; i < nilai.length; i++) {
+        var h = nilai[i];
+        ctx.fillRect(x, canvas.height - h, width, h);
+        x += width + 15;
+    }
 </script>
 </body>
 </html>

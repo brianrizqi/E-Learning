@@ -127,16 +127,18 @@
 
     $("#btn-logout").on('click',function () {
         var modal = document.getElementById("myModal");
-        var no = document.getElementById("modal-btn-no");
         modal.style.display = "block";
-        no.onclick = function () {
-            console.log("asd")
-        }
-        // span.onclick = function () {
-        //     modal.style.display = "none";
-        //     window.location.href = 'dashboard.html';
-        //     return false;
-        // }
+    })
+
+    $("#modal-btn-no").on('click',function () {
+        var modal = document.getElementById("myModal");
+        modal.style.display = "none";
+    })
+
+    $("#modal-btn-yes").on('click',function () {
+        window.location.href = 'index.html';
+        return false;
+        modal.style.display = "none";
     })
 </script>
 </body>

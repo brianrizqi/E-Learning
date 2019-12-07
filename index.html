@@ -21,17 +21,36 @@
 
     </form>
 </div>
+
+<div id="myModal" class="modal">
+
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Login berhasil selamat datang</p>
+    </div>
+
+</div>
 <script type="text/javascript">
     function validation() {
         var username = document.getElementById('username').value;
         var password = document.getElementById('password').value;
         if (username == "mahasiswa" && password == "mahasiswa") {
-            alert('berhasil');
-            window.location.href = 'dashboard.html';
-            return false;
+            modal();
+
         } else {
             alert("username / password salah");
         }
+    }
+
+    function modal() {
+      var modal = document.getElementById("myModal");
+      var span = document.getElementsByClassName("close")[0];
+      modal.style.display = "block";
+      span.onclick = function () {
+            modal.style.display = "none";
+          window.location.href = 'dashboard.html';
+          return false;
+      }
     }
 </script>
 </body>

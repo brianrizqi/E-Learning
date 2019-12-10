@@ -26,31 +26,41 @@
 
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p>Login berhasil selamat datang</p>
+        <p id="modal-text">Login berhasil selamat datang</p>
     </div>
 
 </div>
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
 <script type="text/javascript">
     function validation() {
         var username = document.getElementById('username').value;
         var password = document.getElementById('password').value;
         if (username == "mahasiswa" && password == "mahasiswa") {
-            modal();
-
+            modal(true);
         } else {
-            alert("username / password salah");
+            modal(false);
+            // alert("username / password salah");
         }
     }
 
-    function modal() {
-      var modal = document.getElementById("myModal");
-      var span = document.getElementsByClassName("close")[0];
-      modal.style.display = "block";
-      span.onclick = function () {
-            modal.style.display = "none";
-          window.location.href = 'dashboard.html';
-          return false;
-      }
+    function modal(status) {
+        var modal = document.getElementById("myModal");
+        var span = document.getElementsByClassName("close")[0];
+        if (status == true) {
+            $("#modal-text").text("Login berhasil");
+            modal.style.display = "block";
+            span.onclick = function () {
+                modal.style.display = "none";
+                window.location.href = 'dashboard.html';
+                return false;
+            }
+        } else {
+            $("#modal-text").text("Username / password salah");
+            modal.style.display = "block";
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+        }
     }
 </script>
 </body>

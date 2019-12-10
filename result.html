@@ -97,8 +97,12 @@
     var x = 50;
     var width = 40;
     var height = 100;
-    ctx.fillStyle = '#008080';
     for (var i = 0; i < nilai.length; i++) {
+        if (nilai[i] > 80) {
+            ctx.fillStyle = 'blue';
+        } else {
+            ctx.fillStyle = 'red';
+        }
         var h = nilai[i];
         ctx.fillRect(x, canvas.height - h, width, h);
         x += width + 15;

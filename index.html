@@ -1,67 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width , initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="login/login.css">
-    <title>Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+
+    <title>Portofolio - Brian Rizqi</title>
+
+    <link rel="shortcut icon" href="assets/images/gt_favicon.png">
+
+    <!-- Bootstrap -->
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+    <!-- Icons -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script> <![endif]-->
 </head>
-<body>
-<div class="title">
-    <h1>E - Learning</h1>
-</div>
-<div class="loginbox">
-    <h1>Login</h1>
-    <form method="POST">
-        <p>Username</p>
-        <input type="text" name="username" placeholder="Username" id="username">
-        <p>Password</p>
-        <input type="password" name="password" placeholder="Password" id="password">
-        <input type="button" name="submit" value="Login" onclick="validation()">
+<body class="home">
 
-    </form>
-</div>
-
-<div id="myModal" class="modal">
-
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <p id="modal-text">Login berhasil selamat datang</p>
+<header id="header">
+    <div id="head" class="parallax" parallax-speed="2">
+        <h1 id="logo" class="text-center">
+            <img class="img-circle" src="assets/images/brian.jpeg" alt="">
+            <span class="title">Brian Rizqi P. D.</span>
+            <span class="tagline">Software Engineer<br>
+				<a href="">rizqibrian27@gmail.com</a></span>
+        </h1>
     </div>
+    <nav class="navbar navbar-default navbar-sticky">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span> <span
+                        class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#sec-service">Service</a></li>
+                    <li><a href="#sec-work">Recent Work</a></li>
+                    <li><a href="#sec-contact">Contact</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+</header>
 
-</div>
-<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
-<script type="text/javascript">
-    function validation() {
-        var username = document.getElementById('username').value;
-        var password = document.getElementById('password').value;
-        if (username == "mahasiswa" && password == "mahasiswa") {
-            modal(true);
-        } else {
-            modal(false);
-            // alert("username / password salah");
-        }
-    }
+<main id="main">
+    <div class="container">
 
-    function modal(status) {
-        var modal = document.getElementById("myModal");
-        var span = document.getElementsByClassName("close")[0];
-        if (status == true) {
-            $("#modal-text").text("Login berhasil");
-            modal.style.display = "block";
-            span.onclick = function () {
-                modal.style.display = "none";
-                window.location.href = 'dashboard.html';
-                return false;
-            }
-        } else {
-            $("#modal-text").text("Username / password salah");
-            modal.style.display = "block";
-            span.onclick = function () {
-                modal.style.display = "none";
-            }
-        }
-    }
+        <div class="row section topspace">
+            <div class="col-md-12">
+                <p class="lead text-center text-muted">
+
+                </p>
+            </div>
+        </div> <!-- / section -->
+
+        <section class="row section featured topspace" id="sec-service">
+            <h2 class="section-title"><span>Services</span></h2>
+            <div class="row" id="service-section">
+            </div>
+        </section> <!-- / section -->
+
+        <section class="row section recentworks topspace" id="sec-work">
+
+            <h2 class="section-title"><span>Recent Works</span></h2>
+
+            <div class="thumbnails recentworks row" id="recent-works-section">
+
+            </div>
+
+        </section> <!-- /section -->
+
+        <section class="row section topspace" id="sec-contact">
+            <div class="panel panel-cta">
+                <div class="panel-body">
+                    <div class="col-lg-8">
+                        <p>
+                            Jika anda berminat dan ingin memesan website sesuai kebutuhan anda, maka klik tombol
+                            disamping kanan
+                        </p>
+                    </div>
+                    <div class="col-lg-4 text-right">
+                        <a href="https://wa.me/6285231193649" class="btn btn-lg"
+                           style="background-color: forestgreen; color: white" target="_blank">Hubungi Whatsapp</a>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- /section -->
+
+    </div>    <!-- /container -->
+
+</main>
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 widget">
+                <h3 class="widget-title">Contact</h3>
+                <div class="widget-body">
+                    <p>
+                        <a href="https://wa.me/6285231193649">https://wa.me/6285231193649</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4 widget">
+
+            </div>
+
+            <div class="col-md-4 widget">
+                <h3 class="widget-title">Follow me</h3>
+                <div class="widget-body">
+                    <p class="follow-me-icons">
+                        <a href="https://www.linkedin.com/in/brianrizqi/" target="_blank"><i
+                                class="fa fa-linkedin fa-2"></i></a>
+                        <a href="http://github.com/brianrizqi" target="_blank"><i class="fa fa-github fa-2"></i></a>
+                        <a href="https://gitlab.com/brianrizqi" target="_blank"><i class="fa fa-gitlab"></i></a>
+                    </p>
+                </div>
+            </div>
+
+        </div> <!-- /row of widgets -->
+    </div>
+</footer>
+
+<footer id="underfooter">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-6 widget">
+            </div>
+
+            <div class="col-md-6 widget">
+                <div class="widget-body">
+                    <p class="text-right">
+                        Copyright &copy; 2014, Your awesome name here<br>
+                        Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a></p>
+                </div>
+            </div>
+
+        </div> <!-- /row of widgets -->
+    </div>
+</footer>
+
+
+<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="assets/js/template.js"></script>
+<script src="assets/js/script.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.btn-detail-work').click(function (e) {
+            e.preventDefault()
+        })
+    })
 </script>
 </body>
 </html>

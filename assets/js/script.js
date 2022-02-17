@@ -62,7 +62,7 @@ var work_title = [
     'TSA National Foundation Profile',
     'Gizihub.com',
     'Pixelpaper',
-    'Point of Sales Toko Emas Kalisat',
+    'Point of Sales Toko Emas',
     'Kalsa (Kalkulator)',
     'Undangan Pernikahan',
     'SPPK Bahan Pakan Sapi',
@@ -75,7 +75,7 @@ var work_title = [
 ]
 
 var work_description = [
-    'SSO Rootpixel adalah website single sign on yang dimiliki oleh Rootpixel. Pada web ini user dapat login satu kali saja dan bisa mengakses website-website dari rootpixel',
+    'SSO Rootpixel adalah website single sign on yang dimiliki oleh Rootpixel. User dapat login satu kali saja dan bisa mengakses website dari rootpixel',
     'Membership Rootpixel adalah marketplace yang dimiliki oleh Rootpixel. Pada website tersebut rootpixel menjual produk yang dibuat oleh rootpixel',
     'Vodub adalah marketplace bagi voice over. Vodub adalah salah satu produk dari rootpixel. Vodub menjual jasa voice over pada khalayak umum',
     'Website WDU Survei App adalah website mencari responden dan mengambil survey',

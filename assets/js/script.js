@@ -71,7 +71,12 @@ var work_title = [
     'CRM TOG Soft Bank (Singapore)',
     'Talentgrowth',
     'Work Order System',
-    'Geram Apps Pasuruan Regency'
+    'Geram Apps Pasuruan Regency',
+    'Apotek Rachman Farma',
+    'PPE Butar PDSI PERTAMINA',
+    'INVEE.NET',
+    'Levidio Market',
+    'RISS Radana'
 ]
 
 var work_description = [
@@ -93,6 +98,11 @@ var work_description = [
     'Aplikasi ini untuk memonitor setiap aktifitas TOG Soft Bank',
     'Website ini bertujuan untuk memberikan pelajaran dan kuis untuk para jobseeker',
     'Website ini bertujuan memonitoring kerja engineer dan sales',
-    'Sistem pendukung keputusan untuk membantu pemerintah memerangi epidemi demam berdarah.'
+    'Sistem pendukung keputusan untuk membantu pemerintah memerangi epidemi demam berdarah.',
+    'Sistem Kasir untuk Apotek beserta Laporan, Faktur Piutang, Restock, dan Stok Opnam',
+    'Website ini bertujuan untuk memonitoring APD yang diberikan pada Crew',
+    'Sistem untuk membuat undangan pernikahan, meeting, aqiqah, dll',
+    'Sistem untuk menjual produk-produk yang mendukung dalam dunia desain',
+    'Sistem Pengajuan Peminjaman pada Radana'
 ]
 worksSection(work_description.length, work_title, work_description)
